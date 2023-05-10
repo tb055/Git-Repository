@@ -1,0 +1,39 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  match   R-squared:                       0.586
+Model:                            OLS   Adj. R-squared:                  0.585
+Method:                 Least Squares   F-statistic:                     608.4
+Date:                Wed, 10 May 2023   Prob (F-statistic):               0.00
+Time:                        11:32:23   Log-Likelihood:                -25.323
+No. Observations:                6466   AIC:                             82.65
+Df Residuals:                    6450   BIC:                             191.0
+Df Model:                          15                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               -0.2326      0.022    -10.512      0.000      -0.276      -0.189
+attractive_o             0.0069      0.002      3.290      0.001       0.003       0.011
+sinsere_o               -0.0014      0.002     -0.558      0.577      -0.006       0.003
+intelligence_o          -0.0014      0.003     -0.467      0.640      -0.007       0.005
+funny_o                  0.0039      0.002      1.757      0.079      -0.000       0.008
+ambitous_o              -0.0033      0.002     -1.450      0.147      -0.008       0.001
+attractive_partner       0.0086      0.002      3.853      0.000       0.004       0.013
+sincere_partner         -0.0008      0.002     -0.319      0.750      -0.006       0.004
+intelligence_partner -7.069e-05      0.003     -0.023      0.982      -0.006       0.006
+funny_partner            0.0060      0.002      2.528      0.011       0.001       0.011
+ambition_partner        -0.0024      0.002     -1.034      0.301      -0.007       0.002
+like                    -0.0073      0.003     -2.565      0.010      -0.013      -0.002
+guess_prob_liked        -0.0008      0.002     -0.477      0.634      -0.004       0.003
+met                      0.0559      0.011      4.859      0.000       0.033       0.078
+decision                 0.4140      0.007     55.294      0.000       0.399       0.429
+decision_o               0.4101      0.007     57.187      0.000       0.396       0.424
+==============================================================================
+Omnibus:                    27442.415   Durbin-Watson:                   1.931
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              854.901
+Skew:                           0.212   Prob(JB):                    2.29e-186
+Kurtosis:                       1.270   Cond. No.                         172.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
